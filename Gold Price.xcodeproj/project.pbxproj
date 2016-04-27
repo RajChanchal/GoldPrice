@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA938A311CD06BF700935029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA938A301CD06BF700935029 /* AppDelegate.swift */; };
+		FA938A331CD06BF700935029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA938A321CD06BF700935029 /* ViewController.swift */; };
+		FA938A361CD06BF700935029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA938A341CD06BF700935029 /* Main.storyboard */; };
+		FA938A381CD06BF700935029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA938A371CD06BF700935029 /* Assets.xcassets */; };
+		FA938A3B1CD06BF700935029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA938A391CD06BF700935029 /* LaunchScreen.storyboard */; };
+		FA938A461CD06BF800935029 /* Gold_PriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA938A451CD06BF800935029 /* Gold_PriceTests.swift */; };
+		FA938A511CD06BF800935029 /* Gold_PriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA938A501CD06BF800935029 /* Gold_PriceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA938A421CD06BF700935029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA938A251CD06BF700935029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA938A2C1CD06BF700935029;
+			remoteInfo = "Gold Price";
+		};
+		FA938A4D1CD06BF800935029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA938A251CD06BF700935029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA938A2C1CD06BF700935029;
+			remoteInfo = "Gold Price";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA938A2D1CD06BF700935029 /* Gold Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gold Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA938A301CD06BF700935029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA938A321CD06BF700935029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA938A351CD06BF700935029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA938A371CD06BF700935029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA938A3A1CD06BF700935029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA938A3C1CD06BF700935029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA938A411CD06BF700935029 /* Gold PriceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gold PriceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA938A451CD06BF800935029 /* Gold_PriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gold_PriceTests.swift; sourceTree = "<group>"; };
+		FA938A471CD06BF800935029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA938A4C1CD06BF800935029 /* Gold PriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gold PriceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA938A501CD06BF800935029 /* Gold_PriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gold_PriceUITests.swift; sourceTree = "<group>"; };
+		FA938A521CD06BF800935029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA938A2A1CD06BF700935029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA938A3E1CD06BF700935029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA938A491CD06BF800935029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA938A241CD06BF700935029 = {
+			isa = PBXGroup;
+			children = (
+				FA938A2F1CD06BF700935029 /* Gold Price */,
+				FA938A441CD06BF800935029 /* Gold PriceTests */,
+				FA938A4F1CD06BF800935029 /* Gold PriceUITests */,
+				FA938A2E1CD06BF700935029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA938A2E1CD06BF700935029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA938A2D1CD06BF700935029 /* Gold Price.app */,
+				FA938A411CD06BF700935029 /* Gold PriceTests.xctest */,
+				FA938A4C1CD06BF800935029 /* Gold PriceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA938A2F1CD06BF700935029 /* Gold Price */ = {
+			isa = PBXGroup;
+			children = (
+				FA938A301CD06BF700935029 /* AppDelegate.swift */,
+				FA938A321CD06BF700935029 /* ViewController.swift */,
+				FA938A341CD06BF700935029 /* Main.storyboard */,
+				FA938A371CD06BF700935029 /* Assets.xcassets */,
+				FA938A391CD06BF700935029 /* LaunchScreen.storyboard */,
+				FA938A3C1CD06BF700935029 /* Info.plist */,
+			);
+			path = "Gold Price";
+			sourceTree = "<group>";
+		};
+		FA938A441CD06BF800935029 /* Gold PriceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA938A451CD06BF800935029 /* Gold_PriceTests.swift */,
+				FA938A471CD06BF800935029 /* Info.plist */,
+			);
+			path = "Gold PriceTests";
+			sourceTree = "<group>";
+		};
+		FA938A4F1CD06BF800935029 /* Gold PriceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA938A501CD06BF800935029 /* Gold_PriceUITests.swift */,
+				FA938A521CD06BF800935029 /* Info.plist */,
+			);
+			path = "Gold PriceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA938A2C1CD06BF700935029 /* Gold Price */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA938A551CD06BF800935029 /* Build configuration list for PBXNativeTarget "Gold Price" */;
+			buildPhases = (
+				FA938A291CD06BF700935029 /* Sources */,
+				FA938A2A1CD06BF700935029 /* Frameworks */,
+				FA938A2B1CD06BF700935029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gold Price";
+			productName = "Gold Price";
+			productReference = FA938A2D1CD06BF700935029 /* Gold Price.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA938A401CD06BF700935029 /* Gold PriceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA938A581CD06BF800935029 /* Build configuration list for PBXNativeTarget "Gold PriceTests" */;
+			buildPhases = (
+				FA938A3D1CD06BF700935029 /* Sources */,
+				FA938A3E1CD06BF700935029 /* Frameworks */,
+				FA938A3F1CD06BF700935029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA938A431CD06BF700935029 /* PBXTargetDependency */,
+			);
+			name = "Gold PriceTests";
+			productName = "Gold PriceTests";
+			productReference = FA938A411CD06BF700935029 /* Gold PriceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA938A4B1CD06BF800935029 /* Gold PriceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA938A5B1CD06BF800935029 /* Build configuration list for PBXNativeTarget "Gold PriceUITests" */;
+			buildPhases = (
+				FA938A481CD06BF800935029 /* Sources */,
+				FA938A491CD06BF800935029 /* Frameworks */,
+				FA938A4A1CD06BF800935029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA938A4E1CD06BF800935029 /* PBXTargetDependency */,
+			);
+			name = "Gold PriceUITests";
+			productName = "Gold PriceUITests";
+			productReference = FA938A4C1CD06BF800935029 /* Gold PriceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA938A251CD06BF700935029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Geek Sol";
+				TargetAttributes = {
+					FA938A2C1CD06BF700935029 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FA938A401CD06BF700935029 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FA938A2C1CD06BF700935029;
+					};
+					FA938A4B1CD06BF800935029 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FA938A2C1CD06BF700935029;
+					};
+				};
+			};
+			buildConfigurationList = FA938A281CD06BF700935029 /* Build configuration list for PBXProject "Gold Price" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA938A241CD06BF700935029;
+			productRefGroup = FA938A2E1CD06BF700935029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA938A2C1CD06BF700935029 /* Gold Price */,
+				FA938A401CD06BF700935029 /* Gold PriceTests */,
+				FA938A4B1CD06BF800935029 /* Gold PriceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA938A2B1CD06BF700935029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA938A3B1CD06BF700935029 /* LaunchScreen.storyboard in Resources */,
+				FA938A381CD06BF700935029 /* Assets.xcassets in Resources */,
+				FA938A361CD06BF700935029 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA938A3F1CD06BF700935029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA938A4A1CD06BF800935029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA938A291CD06BF700935029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA938A331CD06BF700935029 /* ViewController.swift in Sources */,
+				FA938A311CD06BF700935029 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA938A3D1CD06BF700935029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA938A461CD06BF800935029 /* Gold_PriceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA938A481CD06BF800935029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA938A511CD06BF800935029 /* Gold_PriceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA938A431CD06BF700935029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA938A2C1CD06BF700935029 /* Gold Price */;
+			targetProxy = FA938A421CD06BF700935029 /* PBXContainerItemProxy */;
+		};
+		FA938A4E1CD06BF800935029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA938A2C1CD06BF700935029 /* Gold Price */;
+			targetProxy = FA938A4D1CD06BF800935029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA938A341CD06BF700935029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA938A351CD06BF700935029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA938A391CD06BF700935029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA938A3A1CD06BF700935029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA938A531CD06BF800935029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA938A541CD06BF800935029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA938A561CD06BF800935029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gold Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.geeksol.Gold-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA938A571CD06BF800935029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gold Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.geeksol.Gold-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA938A591CD06BF800935029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gold PriceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.geeksol.Gold-PriceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gold Price.app/Gold Price";
+			};
+			name = Debug;
+		};
+		FA938A5A1CD06BF800935029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gold PriceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.geeksol.Gold-PriceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gold Price.app/Gold Price";
+			};
+			name = Release;
+		};
+		FA938A5C1CD06BF800935029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gold PriceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.geeksol.Gold-PriceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gold Price";
+			};
+			name = Debug;
+		};
+		FA938A5D1CD06BF800935029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gold PriceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.geeksol.Gold-PriceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gold Price";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA938A281CD06BF700935029 /* Build configuration list for PBXProject "Gold Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA938A531CD06BF800935029 /* Debug */,
+				FA938A541CD06BF800935029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA938A551CD06BF800935029 /* Build configuration list for PBXNativeTarget "Gold Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA938A561CD06BF800935029 /* Debug */,
+				FA938A571CD06BF800935029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA938A581CD06BF800935029 /* Build configuration list for PBXNativeTarget "Gold PriceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA938A591CD06BF800935029 /* Debug */,
+				FA938A5A1CD06BF800935029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA938A5B1CD06BF800935029 /* Build configuration list for PBXNativeTarget "Gold PriceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA938A5C1CD06BF800935029 /* Debug */,
+				FA938A5D1CD06BF800935029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA938A251CD06BF700935029 /* Project object */;
+}
