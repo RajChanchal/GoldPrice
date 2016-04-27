@@ -1,0 +1,6 @@
+framework module Pods_Gold_Price {
+  umbrella header "Pods-Gold Price-umbrella.h"
+
+  export *
+  module * { export * }
+}

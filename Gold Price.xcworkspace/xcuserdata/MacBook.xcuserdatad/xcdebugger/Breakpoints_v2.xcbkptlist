@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Gold Price/All View Controllers/Dashboard/DashboardView.swift"
+            timestampString = "483465936.844285"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "DashboardView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gold_Price.DashboardView.(selectedCurrency in _FDCE9B48796A030DD7DC05C68B440E4B).getter : Swift.String"
+                  moduleName = "Gold Price"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Projects/Interview/Gold%20Price/Gold%20Price/All%20View%20Controllers/Dashboard/DashboardView.swift"
+                  timestampString = "483466401.902436"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gold_Price.DashboardView.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Gold_Price.DashboardView"
+                  moduleName = "Gold Price"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Projects/Interview/Gold%20Price/Gold%20Price/All%20View%20Controllers/Dashboard/DashboardView.swift"
+                  timestampString = "483466401.903"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Gold_Price.DashboardView.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Gold_Price.DashboardView&gt;"
+                  moduleName = "Gold Price"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBook/Desktop/Projects/Interview/Gold%20Price/Gold%20Price/All%20View%20Controllers/Dashboard/DashboardView.swift"
+                  timestampString = "483466401.90313"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

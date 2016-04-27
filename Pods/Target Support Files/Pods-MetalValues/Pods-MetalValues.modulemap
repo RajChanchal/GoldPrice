@@ -1,0 +1,6 @@
+framework module Pods_MetalValues {
+  umbrella header "Pods-MetalValues-umbrella.h"
+
+  export *
+  module * { export * }
+}
