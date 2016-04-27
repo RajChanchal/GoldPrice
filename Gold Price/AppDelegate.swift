@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let userDefaults:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        if(userDefaults.objectForKey(Constants.Defaults.SELECTED_CURRENCY) == nil){
+            userDefaults.setObject("USD", forKey: Constants.Defaults.SELECTED_CURRENCY)
+        }
+        if(userDefaults.objectForKey(Constants.Defaults.SELECTED_UNIT) == nil){
+            userDefaults.setObject("Gram", forKey: Constants.Defaults.SELECTED_UNIT)
+        }
+        print(NSUserDefaults.standardUserDefaults().objectForKey(Constants.Defaults.SELECTED_UNIT))
         return true
     }
 

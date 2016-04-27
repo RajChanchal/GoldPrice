@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MetalValues.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FA6D399D1CD0BB15002CF328</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FA938A2C1CD06BF700935029</key>
 		<dict>
 			<key>primary</key>
