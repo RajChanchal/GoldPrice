@@ -88,6 +88,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Gold Price/MBProgressHUD.framework"
   install_framework "Pods-Gold Price/MKFoundationKit.framework"
   install_framework "Pods-Gold Price/MKUnits.framework"
+  install_framework "Pods-Gold Price/SwiftChart.framework"
   install_framework "Pods-Gold Price/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -95,5 +96,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Gold Price/MBProgressHUD.framework"
   install_framework "Pods-Gold Price/MKFoundationKit.framework"
   install_framework "Pods-Gold Price/MKUnits.framework"
+  install_framework "Pods-Gold Price/SwiftChart.framework"
   install_framework "Pods-Gold Price/SwiftyJSON.framework"
 fi

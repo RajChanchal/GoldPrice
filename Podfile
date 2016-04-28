@@ -13,7 +13,7 @@ end
 target 'Gold Price' do
 repeating_pods
 pod 'MBProgressHUD', '~> 0.9.2'
-
+pod 'SwiftChart'
 end
 
 target 'Gold PriceTests' do

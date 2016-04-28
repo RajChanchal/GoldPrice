@@ -160,12 +160,38 @@
                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Of-ta-TmP" customClass="Chart" customModule="SwiftChart">
+                                                <rect key="frame" x="20" y="30" width="280" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="qlP-41-OfT"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-SQ-Ogb">
+                                                <rect key="frame" x="20" y="5" width="0.0" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="X8u-te-bJq"/>
+                                                    <constraint firstAttribute="height" constant="21" id="fqp-zU-Xdn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="X8u-te-bJq"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="IDG-pZ-hi4" secondAttribute="trailing" constant="8" id="1iy-Dm-gUa"/>
                                             <constraint firstItem="IDG-pZ-hi4" firstAttribute="leading" secondItem="maW-hD-WHt" secondAttribute="leading" constant="8" id="BPl-6E-G0J"/>
+                                            <constraint firstItem="6Of-ta-TmP" firstAttribute="leading" secondItem="maW-hD-WHt" secondAttribute="leading" constant="20" id="DUe-gL-2et"/>
+                                            <constraint firstItem="tKd-SQ-Ogb" firstAttribute="leading" secondItem="maW-hD-WHt" secondAttribute="leading" constant="20" id="HLc-3V-d19"/>
+                                            <constraint firstItem="tKd-SQ-Ogb" firstAttribute="top" secondItem="maW-hD-WHt" secondAttribute="top" constant="5" id="NlN-lL-ZGv"/>
+                                            <constraint firstItem="6Of-ta-TmP" firstAttribute="top" secondItem="maW-hD-WHt" secondAttribute="top" constant="30" id="Y8d-ys-Vsl"/>
                                             <constraint firstItem="IDG-pZ-hi4" firstAttribute="centerY" secondItem="maW-hD-WHt" secondAttribute="centerY" id="h5P-AI-6KU"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Of-ta-TmP" secondAttribute="trailing" constant="20" id="oUb-bs-5RQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -189,6 +215,9 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="chartGold" destination="6Of-ta-TmP" id="QlW-xD-TH0"/>
+                        <outlet property="label" destination="tKd-SQ-Ogb" id="ni8-dA-HT0"/>
+                        <outlet property="labelLeadingMarginConstraint" destination="HLc-3V-d19" id="lio-md-eBL"/>
                         <outlet property="viewContainer" destination="maW-hD-WHt" id="TSm-fM-URS"/>
                     </connections>
                 </viewController>
