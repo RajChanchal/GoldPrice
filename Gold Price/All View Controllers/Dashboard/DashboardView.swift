@@ -14,8 +14,8 @@ import MBProgressHUD
 class DashboardView: UIViewController,UITableViewDataSource,UITableViewDelegate,CountryPhoneCodePickerDelegate,UIPickerViewDelegate,UIPickerViewDataSource {
     // MARK: Properties
     private var metals:NSMutableDictionary = NSMutableDictionary()
-    private var selectedCurrency:String = NSUserDefaults.standardUserDefaults().objectForKey(Constants.Defaults.SELECTED_CURRENCY)as!String
-    private var selectedUnit:String = NSUserDefaults.standardUserDefaults().objectForKey(Constants.Defaults.SELECTED_UNIT)as!String
+    private var selectedCurrency:String!
+    private var selectedUnit:String!
     private var txtFieldCurrency:UITextField = UITextField(frame: CGRectZero)
     private var txtFieldUnit:UITextField = UITextField(frame: CGRectZero)
     private var currencyPicker: CountryPicker? = nil
@@ -27,6 +27,10 @@ class DashboardView: UIViewController,UITableViewDataSource,UITableViewDelegate,
 // MARK: - View Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let userDefaults:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        selectedCurrency = userDefaults.objectForKey(Constants.Defaults.SELECTED_CURRENCY)as!String
+        selectedUnit = userDefaults.objectForKey(Constants.Defaults.SELECTED_UNIT)as!String
         self.setupCurrencyPicker()
         self.setupUnitPicker()
         self.fetchMetalsData()
@@ -52,7 +56,8 @@ class DashboardView: UIViewController,UITableViewDataSource,UITableViewDelegate,
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let metal:Metal = self.metals[selectedCurrency]![indexPath.row] as! Metal
+        let metalArray:NSMutableArray = self.metals[selectedCurrency] as! NSMutableArray
+        let metal:Metal = metalArray[indexPath.row] as! Metal
         let cell:MetalCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! MetalCell
         cell.configMetal(metal,currencyType: selectedCurrency,unitType: selectedUnit)
         return cell

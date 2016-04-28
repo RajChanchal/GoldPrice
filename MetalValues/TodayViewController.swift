@@ -14,12 +14,22 @@ import SwiftyJSON
 class TodayViewController: UIViewController, NCWidgetProviding {
     private var metals:NSMutableDictionary = NSMutableDictionary()
     
-    private var selectedCurrency:String = String(NSUserDefaults.standardUserDefaults().objectForKey(Constants.Defaults.SELECTED_CURRENCY))
-    private var selectedUnit:String = String(NSUserDefaults.standardUserDefaults().objectForKey(Constants.Defaults.SELECTED_UNIT))
+    private var selectedCurrency:String!
+    private var selectedUnit:String!
     @IBOutlet weak var tblView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let userDefaults:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        if(userDefaults.objectForKey(Constants.Defaults.SELECTED_CURRENCY) == nil){
+            userDefaults.setObject("USD", forKey: Constants.Defaults.SELECTED_CURRENCY)
+        }
+        if(userDefaults.objectForKey(Constants.Defaults.SELECTED_UNIT) == nil){
+            userDefaults.setObject("Gram", forKey: Constants.Defaults.SELECTED_UNIT)
+        }
+        userDefaults.synchronize()
+        selectedCurrency = userDefaults.objectForKey(Constants.Defaults.SELECTED_CURRENCY)as!String
+        selectedUnit = userDefaults.objectForKey(Constants.Defaults.SELECTED_UNIT)as!String
         // Do any additional setup after loading the view from its nib.
     }
     override func viewWillAppear(animated: Bool) {
@@ -77,7 +87,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let metal:Metal = self.metals[selectedCurrency]![indexPath.row] as! Metal
+        let metalArray:NSMutableArray = self.metals[selectedCurrency] as! NSMutableArray
+        let metal:Metal = metalArray[indexPath.row] as! Metal
         let cell:MetalCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! MetalCell
         cell.configMetal(metal,currencyType: selectedCurrency,unitType: selectedUnit)
         return cell
